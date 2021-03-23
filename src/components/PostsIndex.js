@@ -21,7 +21,7 @@ function PostsIndex (props) {
             return (
                 <div class="item" key={post.id}>
                     <div class="content">
-                        <div class="header"><h3><Link to={`/posts/${post.id}`}>{post.title}</Link></h3></div>
+                        <div style={{ marginBottom: '10px' }}class="header"><h3><Link to={`/posts/${post.id}`}>{post.title}</Link></h3></div>
                         {post.content}
                     </div>
                 </div>
